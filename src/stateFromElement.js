@@ -240,6 +240,9 @@ class BlockGenerator {
       case 'figure': {
         return BLOCK_TYPE.ATOMIC;
       }
+      case 'img': {
+        return BLOCK_TYPE.ATOMIC;
+      }
       default: {
         return BLOCK_TYPE.UNSTYLED;
       }
